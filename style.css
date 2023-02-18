@@ -1,3 +1,29 @@
+h1{
+    margin: 5px;
+}
 p{
     margin: 5px 25px;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+.img-thumbnail{
+    border: 1px solid #c9dee6;
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+}
+table{
+    margin-top:10px;
+}
+th:hover{
+    background-color: rgb(88, 119, 161);
+}
+th{
+    border: 1px solid #c4a21e;
+}
+td:hover{
+    color: white;
+    background-color: rgb(9, 43, 87);
 }
