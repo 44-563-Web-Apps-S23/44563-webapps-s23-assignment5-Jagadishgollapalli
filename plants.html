@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<link lang="en">
+<html>
+  <link lang="en" />
   <head>
     <title>Plants by Jagadish Gollapalli</title>
     <meta charset="utf-8" />
@@ -21,7 +22,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <link rel="stylesheet" type="text/css" href="style.css"></link>
+  <link rel="stylesheet" type="text/css" href="style.css" />
   <body>
     <h1><u>Plants by Jagadish Gollapalli</u></h1>
     <div class="container">
@@ -42,23 +43,33 @@
         <div class="col-md">PANDOREA</div>
       </div>
     </div>
-    <hr/>
-    <p>The plants names breaks first, thats because for plan names we are giving <b>col-md</b> as class name. since the max container width for MEDIUM IN 
-        bootstrap is >= 768px and when the container is being resized the breakpoint  comes below 768px and the viewport adjusts automatically.
-        and for <b>col-sm-2</b> class name the breakpoint comes below =< 576px so when we resize the md-column auto adjusts first. 
+    <hr />
+    <p>
+      The plants names breaks first, thats because for plan names we are giving
+      <b>col-md</b> as class name. since the max container width for MEDIUM IN
+      bootstrap is >= 768px and when the container is being resized the
+      breakpoint comes below 768px and the viewport adjusts automatically. and
+      for <b>col-sm-2</b> class name the breakpoint comes below =< 576px so when
+      we resize the md-column auto adjusts first.
     </p>
     <div class="container">
       <div class="row">
-        <div class="col-md"><img src="./images/Gaillardia.jpg"></div>
-        <div class="col-md"><img src="./images/Lagerstroemia.jpg"></div>
-        <div class="col-md"><img src="./images/pandorea.jpg"></div>
+        <div class="col-md"><img src="./images/Gaillardia.jpg" /></div>
+        <div class="col-md"><img src="./images/Lagerstroemia.jpg" /></div>
+        <div class="col-md"><img src="./images/pandorea.jpg" /></div>
       </div>
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-md"><img class="img-thumbnail" src="./images/Gaillardia.jpg"></div>
-        <div class="col-md"><img class="img-thumbnail" src="./images/Lagerstroemia.jpg"></div>
-        <div class="col-md"><img class="img-thumbnail" src="./images/pandorea.jpg"></div>
+        <div class="col-md">
+          <img class="img-thumbnail" src="./images/Gaillardia.jpg" />
+        </div>
+        <div class="col-md">
+          <img class="img-thumbnail" src="./images/Lagerstroemia.jpg" />
+        </div>
+        <div class="col-md">
+          <img class="img-thumbnail" src="./images/pandorea.jpg" />
+        </div>
       </div>
     </div>
     <div class="container">
@@ -110,6 +121,27 @@
           </tr>
         </tbody>
       </table>
+    </div>
+      <p>Button toolbar group for plants, Mountains and Lakes</p>
+    <div class="container">
+      <div
+        class="btn-toolbar"
+        role="toolbar"
+        aria-label="Toolbar with button groups"
+      >
+        <div class="btn-group me-2" role="group" aria-label="First group">
+          <button type="button" class="btn btn-success">G</button>
+          <button type="button" class="btn btn-success">O</button>
+          <button type="button" class="btn btn-success">L</button>
+        </div>
+        <div class="btn-group me-2" role="group" aria-label="Second group">
+          <button type="button" class="btn btn-warning">L</button>
+          <button type="button" class="btn btn-warning">A</button>
+        </div>
+        <div class="btn-group" role="group" aria-label="Third group">
+          <button type="button" class="btn btn-danger">P</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
