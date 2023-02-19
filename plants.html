@@ -6,9 +6,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
     <script
@@ -24,7 +24,37 @@
   </head>
   <link rel="stylesheet" type="text/css" href="style.css" />
   <body>
-    <h1><u>Plants by Jagadish Gollapalli</u></h1>
+    <h1 style="text-align: center"><u>Plants by Jagadish Gollapalli</u></h1>
+    <br />
+    <div class="container">
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="plants.html">Interesting Plants</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="basic.html">Basic</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="advanced.html">Advanced</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <br>
     <div class="container">
       <div class="row">
         <div class="col-sm-2">G</div>
@@ -52,6 +82,7 @@
       for <b>col-sm-2</b> class name the breakpoint comes below =< 576px so when
       we resize the md-column auto adjusts first.
     </p>
+    <br />
     <div class="container">
       <div class="row">
         <div class="col-md"><img src="./images/Gaillardia.jpg" /></div>
@@ -122,7 +153,7 @@
         </tbody>
       </table>
     </div>
-      <p>Button toolbar group for plants, Mountains and Lakes</p>
+    <p>Button toolbar group for plants, Mountains and Lakes</p>
     <div class="container">
       <div
         class="btn-toolbar"
@@ -141,6 +172,22 @@
         <div class="btn-group" role="group" aria-label="Third group">
           <button type="button" class="btn btn-danger">P</button>
         </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="dropdown">
+        <button
+          class="btn btn-primary dropdown-toggle"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="basic.html">Basic</a></li>
+          <li><a class="dropdown-item" href="advanced.html">Advanced</a></li>
+        </ul>
       </div>
     </div>
   </body>
