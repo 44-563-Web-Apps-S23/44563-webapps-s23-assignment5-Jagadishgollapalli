@@ -38,3 +38,16 @@ h4{
 .col-sm-2:hover{
     background-color: #ffcb10;
 }
+.card{
+    float: left;
+}
+h5{
+    text-align:center;
+    color: rgb(27, 12, 143);
+    background-color: rgb(255, 220, 220);
+    border-radius: 2px;
+    margin-left: 2px;
+}
+.card-text:hover{
+    color: #ffcb10;
+}
